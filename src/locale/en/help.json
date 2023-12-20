@@ -1,0 +1,23 @@
+{
+  "help": {
+    "definitions": {
+      "helpKey": [
+        "Help Key",
+        ["Description Paragraph", "Description Paragraph"]
+      ]
+    },
+    "externals": {
+      "github": "PBA Alumni Hub (Github)",
+      "polkadotAmbassadorProgram": "Polkadot Ambassador program",
+      "gov": "Governance v2",
+      "polkadotForum": "Polkadot Forum"
+    },
+    "modal": {
+      "articles": "Links",
+      "close": "Close",
+      "definitions": "Definitions",
+      "helpResources": "Resources",
+      "related": "Related"
+    }
+  }
+}
