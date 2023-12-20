@@ -1057,10 +1057,11 @@ serve as a code of conduct for whenever we meet in person or online.`}),`
 `,H.jsx(t.h2,{children:"Academy Social media channels"}),`
 `,H.jsx(t.p,{children:"Follow us on social media channels, and tag us whenever appropriate."}),`
 `,H.jsx("div",{style:{display:"block",margin:"0.5rem 0"},children:H.jsxs("ul",{children:[H.jsx("li",{children:H.jsx("a",{href:"https://www.linkedin.com/school/polkadot-blockchain-academy/",parent:"_blank",children:H.jsx(t.p,{children:"LinkedIn"})})}),H.jsx("li",{children:H.jsx("a",{href:"https://twitter.com/AcademyPolkadot",parent:"_blank",children:H.jsx(t.p,{children:"X"})})})]})}),`
-`,H.jsx("p",{children:H.jsx(t.p,{children:`We are keen to feature your work and give you more visibility. Please write to
-us if you would like to participate in a podcast episode organized in
-collaboration with Irina K, or if you would like to write an article for the
-Academy LinkedIn page.`})}),`
+`,H.jsx("p",{children:H.jsxs(t.p,{children:[`We are keen to feature your work and give you more visibility. Please write to
+us at `,H.jsx("a",{href:"mailto:alumni@polkadot.academy",children:"alumni@polkadot.academy"}),` if
+you would like to participate in a podcast episode organized in collaboration
+with Irina K, or if you would like to write an article for the Academy
+LinkedIn page.`]})}),`
 `,H.jsx(t.h2,{children:"Where is the hub for the alumni network located?"}),`
 `,H.jsxs(t.p,{children:["The Hub is located between here for reference material and the ",H.jsx(t.strong,{children:"Element channel for communication with Alumni and Faculty (Element channel: #pba-alumni:parity.io)"}),"."]})]})}function EJ(e={}){const{wrapper:t}=e.components||{};return t?H.jsx(t,{...e,children:H.jsx(mw,{...e})}):mw(e)}const TJ=()=>H.jsxs(H.Fragment,{children:[H.jsx(Yx,{title:"PBA Alumni Hub - Welcome"}),H.jsx(Z_,{style:{paddingTop:"1rem"},children:H.jsx(EJ,{})})]}),_J="/alumni-hub/assets/PBA3-AgJ9DeHP.png";function gw(e){const t={a:"a",blockquote:"blockquote",h1:"h1",p:"p",strong:"strong",...e.components};return H.jsxs(H.Fragment,{children:[H.jsx(t.h1,{children:"Funding for your projects"}),`
 `,H.jsx("img",{className:"adj-img",src:_J,alt:"pba3"}),`
