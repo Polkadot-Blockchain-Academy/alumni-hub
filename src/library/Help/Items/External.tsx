@@ -36,7 +36,9 @@ export const External = ({
         {subtitle}
         <p className="icon">
           <FontAwesomeIcon icon={faExt} className="ext" />
-          {website !== undefined && website}
+          <span style={{ color: "var(--text-color-primary)" }}>
+            {website !== undefined && website}
+          </span>
         </p>
       </motion.button>
     </ItemWrapper>
