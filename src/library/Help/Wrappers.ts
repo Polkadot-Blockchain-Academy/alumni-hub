@@ -129,6 +129,7 @@ export const ItemWrapper = styled(motion.div)<any>`
 
     .ext {
       margin-right: 0.75rem;
+      color: var(--text-color-primary);
     }
   }
 `
