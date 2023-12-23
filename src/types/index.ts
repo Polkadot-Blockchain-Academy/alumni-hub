@@ -16,7 +16,7 @@ export interface PageItem {
   uri: string
   hash: string
   Entry: React.FC<PageProps>
-  lottie: AnyJson
+  icon?: JSX.Element
   action?: {
     type: string
     status: string

@@ -4,6 +4,7 @@
 import { Welcome } from "pages/Welcome"
 import { Funding } from "pages/Funding"
 import type { PageCategoryItems, PagesConfigItems } from "types"
+import { CiCircleInfo } from "react-icons/ci"
 
 const BASE_URL = import.meta.env.BASE_URL
 
@@ -21,7 +22,7 @@ export const PagesConfig: PagesConfigItems = [
     uri: `${BASE_URL}`,
     hash: "/welcome",
     Entry: Welcome,
-    lottie: "globe",
+    icon: CiCircleInfo,
   },
   // {
   //   category: 1,
@@ -37,6 +38,6 @@ export const PagesConfig: PagesConfigItems = [
     uri: `${BASE_URL}`,
     hash: "/funding",
     Entry: Funding,
-    lottie: "label",
+    icon: CiCircleInfo,
   },
 ]

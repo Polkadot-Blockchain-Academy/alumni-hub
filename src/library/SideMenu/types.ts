@@ -3,7 +3,6 @@
 
 import type React from "react"
 import type { FunctionComponent, SVGProps } from "react"
-import type { AnyJson } from "types"
 
 export interface MinimisedProps {
   $minimised?: boolean
@@ -18,7 +17,7 @@ export interface PrimaryProps {
   name: string
   active: boolean
   to: string
-  lottie: AnyJson
+  icon?: JSX.Element
   action: undefined | { type: string; status: string; text?: string }
   minimised: boolean
 }
@@ -35,6 +34,6 @@ export interface SecondaryProps {
 }
 
 export interface IconProps {
-  Svg: FunctionComponent<SVGProps<SVGSVGElement>>
+  Svg?: FunctionComponent<SVGProps<SVGSVGElement>>
   size?: string
 }

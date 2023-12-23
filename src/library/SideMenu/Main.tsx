@@ -79,14 +79,14 @@ export const Main = () => {
 
             {/* display category links */}
             {pagesToDisplay.map(
-              ({ category, hash, key, lottie, action }: PageItem) => (
+              ({ category, hash, key, icon, action }: PageItem) => (
                 <React.Fragment key={`sidemenu_page_${categoryId}_${key}`}>
                   {category === categoryId && (
                     <Primary
                       name={t(key)}
                       to={hash}
                       active={hash === pathname}
-                      lottie={lottie}
+                      icon={icon}
                       action={action}
                       minimised={sideMenuMinimised}
                     />
