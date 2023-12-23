@@ -110,17 +110,6 @@ export const SideMenu = () => {
           </button>
         )}
         <button
-          type="button"
-          onClick={() =>
-            window.open(
-              "https://github.com/polkadot-blockchain-academy/alumni-hub",
-              "_blank"
-            )
-          }
-        >
-          <IoLogoGithub size={iconSize} />
-        </button>
-        <button
           onClick={() =>
             window.open("https://twitter.com/AcademyPolkadot", "_blank")
           }
@@ -136,6 +125,17 @@ export const SideMenu = () => {
           }
         >
           <FaLinkedin size={iconSize} />
+        </button>
+        <button
+          type="button"
+          onClick={() =>
+            window.open(
+              "https://github.com/polkadot-blockchain-academy/alumni-hub",
+              "_blank"
+            )
+          }
+        >
+          <IoLogoGithub size={iconSize} />
         </button>
       </section>
     </Wrapper>

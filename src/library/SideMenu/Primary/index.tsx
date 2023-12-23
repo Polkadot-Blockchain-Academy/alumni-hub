@@ -14,7 +14,7 @@ export const Primary = ({
   to,
   action,
   minimised,
-  Icon,
+  icon,
 }: PrimaryProps) => {
   const { setSideMenu } = useUi()
 
@@ -62,7 +62,8 @@ export const Primary = ({
         }}
       >
         <div className={`dotlottie${minimised ? ` minimised` : ``}`}>
-          <Icon />
+          {icon &&
+            icon({ size: "1.25rem", fill: "var(--accent-color-primary)" })}
         </div>
         {!minimised && (
           <>

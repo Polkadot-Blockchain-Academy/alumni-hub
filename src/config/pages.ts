@@ -3,8 +3,12 @@
 
 import { Welcome } from "pages/Welcome"
 import { Funding } from "pages/Funding"
+import { Fellowship } from "pages/Fellowship"
+
 import type { PageCategoryItems, PagesConfigItems } from "types"
-import { CiCircleInfo } from "react-icons/ci"
+import { PiStudentFill } from "react-icons/pi"
+import { RiFundsBoxFill } from "react-icons/ri"
+import { HiMiniUserGroup } from "react-icons/hi2"
 
 const BASE_URL = import.meta.env.BASE_URL
 
@@ -22,22 +26,22 @@ export const PagesConfig: PagesConfigItems = [
     uri: `${BASE_URL}`,
     hash: "/welcome",
     Entry: Welcome,
-    icon: CiCircleInfo,
+    icon: PiStudentFill,
   },
-  // {
-  //   category: 1,
-  //   key: "members",
-  //   uri: `${BASE_URL}`,
-  //   hash: "/members",
-  //   Entry: Members,
-  //   lottie: "groups",
-  // },
   {
     category: 1,
     key: "Funding",
     uri: `${BASE_URL}`,
     hash: "/funding",
     Entry: Funding,
-    icon: CiCircleInfo,
+    icon: RiFundsBoxFill,
+  },
+  {
+    category: 1,
+    key: "Fellowship",
+    uri: `${BASE_URL}`,
+    hash: "/fellowship",
+    Entry: Fellowship,
+    icon: HiMiniUserGroup,
   },
 ]

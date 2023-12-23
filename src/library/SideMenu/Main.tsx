@@ -9,16 +9,19 @@ import { PageCategories, PagesConfig } from "config/pages"
 import { useUi } from "contexts/UI"
 import type { UIContextInterface } from "contexts/UI/types"
 import type { PageCategory, PageItem, PagesConfigItems } from "types"
+import { useTheme } from "contexts/Themes"
 
-// import PolkadotIcon from "img/polkadotIcon.svg?react"
-// import PolkadotLogo from "img/polkadotLogo.svg?react"
 import PBALogo from "img/pbaLogo.svg?react"
+import PBALogoBlack from "img/pbaLogo_black.svg?react"
+import AcademyHatW from "img/AcademyHat_white.svg?react"
+import AcademyHatB from "img/AcademyHat_black.svg?react"
 import { Heading } from "./Heading/Heading"
 import { Primary } from "./Primary"
 import { IconWrapper, LogoWrapper } from "./Wrapper"
 
 export const Main = () => {
   const { t } = useTranslation("base")
+  const { mode } = useTheme()
   const { pathname } = useLocation()
   const { sideMenuMinimised }: UIContextInterface = useUi()
 
@@ -30,9 +33,12 @@ export const Main = () => {
   // remove pages that network does not support
   const pagesToDisplay: PagesConfigItems = Object.values(pageConfig.pages)
 
-  const size = sideMenuMinimised ? "1.4rem" : "2.2rem"
+  const PBALogoFin = mode != "light" ? PBALogo : PBALogoBlack
+  const AcademyHat = mode != "light" ? AcademyHatW : AcademyHatB
+
+  const size = sideMenuMinimised ? "2.4rem" : "2.2rem"
   const Svg = sideMenuMinimised ? (
-    <PBALogo
+    <AcademyHat
       style={{
         maxHeight: "100%",
         width: "2rem",
@@ -42,7 +48,7 @@ export const Main = () => {
       height={size}
     />
   ) : (
-    <PBALogo
+    <PBALogoFin
       style={{
         maxHeight: "100%",
         height: "100%",
