@@ -3,6 +3,7 @@
 
 import type { SecondaryProps } from "../types"
 import { IconWrapper, MinimisedWrapper, Wrapper } from "./Wrappers"
+import { CiCircleInfo } from "react-icons/ci"
 
 export const Secondary = ({
   action,
@@ -12,7 +13,7 @@ export const Secondary = ({
   minimised,
   onClick,
 }: SecondaryProps) => {
-  const { Svg, size } = icon || {}
+  const { size } = icon || {}
 
   const StyledWrapper = minimised ? MinimisedWrapper : Wrapper
 
@@ -33,7 +34,7 @@ export const Secondary = ({
         className="icon"
         style={{ width: size, height: size }}
       >
-        {Svg && <Svg width={size} height={size} />}
+        <CiCircleInfo size={size + "rem"} />
       </IconWrapper>
 
       {!minimised && (

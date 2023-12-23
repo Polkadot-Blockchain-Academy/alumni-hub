@@ -1,7 +1,8 @@
 // Copyright 2023 @polkadot-blockchain-academy/alumni-hub authors & contributors
 // SPDX-License-Identifier: GPL-3.0-only
 
-import { ApiPromise, WsProvider } from "@polkadot/api"
+import type { WsProvider } from "@polkadot/api"
+import { ApiPromise } from "@polkadot/api"
 import { createContext, useContext, useEffect, useState } from "react"
 import type {
   APIContextInterface,
@@ -41,10 +42,10 @@ export const APIProvider = ({ children, network }: APIProviderProps) => {
 
   // Connect function sets provider and updates active network.
   const connectProvider = () => {
-    const newProvider = new WsProvider(
-      "wss://polkadot-collectives-rpc.polkadot.io"
-    )
-    setProvider(newProvider)
+    // const newProvider = new WsProvider(
+    //   "wss://polkadot-collectives-rpc.polkadot.io"
+    // )
+    setProvider(null)
   }
 
   // Handle an initial RPC connection.
