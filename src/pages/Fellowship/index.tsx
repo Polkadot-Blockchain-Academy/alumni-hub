@@ -7,7 +7,7 @@ import MdxCode from "./index.mdx"
 export const Fellowship = () => {
   return (
     <>
-      <PageTitle title="PBA Alumni Hub - Polkadot Fellowship" />
+      <PageTitle title="Polkadot Fellowship" />
       <PageRow style={{ paddingTop: "1rem" }}>
         <MdxCode />
       </PageRow>

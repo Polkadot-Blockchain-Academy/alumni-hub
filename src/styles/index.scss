@@ -22,6 +22,16 @@ html {
       width: 100%;
     }
 
+    h1 {
+      margin: 1.25rem 0;
+    }
+
+    h2,
+    h3,
+    h4 {
+      margin: 0.75rem 0;
+    }
+
     a {
       font-weight: bold;
       color: var(--accent-color-primary);
