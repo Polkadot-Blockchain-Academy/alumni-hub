@@ -4,10 +4,10 @@
 import { PageRow, PageTitle } from "@polkadot-cloud/react"
 import MdxCode from "./index.mdx"
 
-export const Welcome = () => {
+export const Ecosystem = () => {
   return (
     <>
-      <PageTitle title="Welcome" />
+      <PageTitle title="Around Polkadot's Ecosystem" />
       <PageRow style={{ paddingTop: "1rem" }}>
         <MdxCode />
       </PageRow>

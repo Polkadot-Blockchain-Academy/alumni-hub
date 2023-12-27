@@ -7,7 +7,7 @@ import MdxCode from "./index.mdx"
 export const Funding = () => {
   return (
     <>
-      <PageTitle title="PBA Alumni Hub - Funding" />
+      <PageTitle title="Funding" />
       <PageRow style={{ paddingTop: "1rem" }}>
         <MdxCode />
       </PageRow>

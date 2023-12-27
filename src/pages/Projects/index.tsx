@@ -4,10 +4,10 @@
 import { PageRow, PageTitle } from "@polkadot-cloud/react"
 import MdxCode from "./index.mdx"
 
-export const Welcome = () => {
+export const Projects = () => {
   return (
     <>
-      <PageTitle title="Welcome" />
+      <PageTitle title="Alumni's Projects" />
       <PageRow style={{ paddingTop: "1rem" }}>
         <MdxCode />
       </PageRow>
