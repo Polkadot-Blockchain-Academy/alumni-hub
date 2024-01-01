@@ -1,4 +1,4 @@
-// Copyright 2023 @polkadot-blockchain-academy/alumni-hub authors & contributors
+// Copyright 2024 @polkadot-blockchain-academy/alumni-hub authors & contributors
 // SPDX-License-Identifier: GPL-3.0-only
 
 import type { HelpContextInterface } from "./types"
