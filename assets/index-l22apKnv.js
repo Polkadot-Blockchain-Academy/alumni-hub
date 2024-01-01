@@ -1110,18 +1110,18 @@ in a more flexible way. (`,V.jsx(t.a,{href:"https://www.youtube.com/watch?v=zw07
 `,V.jsx(t.p,{children:"LAOS is a scalable, bridgelessly connected, truly non-custodial, dynamic NFT Protocol."}),`
 `,V.jsx(t.h2,{children:V.jsx("a",{href:"https://www.lastic.xyz/",target:"_blank",children:"Lastic"})}),`
 `,V.jsx(t.p,{children:"Lastic is a coretime marketplace. Lastic is building a user-friendly interface that serves builders, tinkerers, and traders alike."}),`
-`,V.jsx(t.h2,{children:V.jsx("a",{href:"https://github.com/RostislavLitovkin/PlutoWallet/tree/devel",target:"\\_blank",children:" PlutoWallet"})}),`
+`,V.jsx(t.h2,{children:V.jsx("a",{href:"https://github.com/RostislavLitovkin/PlutoWallet/tree/devel",target:"\\_blank",children:"PlutoWallet"})}),`
 `,V.jsx(t.p,{children:`PlutoWallet is a crypto wallet designed exclusively for substrate-based chains. It
 offers fully customizable layouts through an intuitive drag and drop interface.`}),`
-`,V.jsx(t.h2,{children:V.jsx("a",{href:"http://contractwizard.xyz",target:"_blank",children:"Polkadot Contract Wizard v 2.0"})}),`
-`,V.jsx(t.p,{children:`The Polkadot Contract Wizard is an intuitive web-based platform designed to simplify
-the process of creating, deploying, and managing smart contracts within the Polkadot
-and Kusama ecosystems.`}),`
 `,V.jsx(t.h2,{children:V.jsx("a",{href:"https://polkadot.cloud/",target:"_blank",children:"Polkadot Cloud"})}),`
 `,V.jsx("a",{href:"https://github.com/polkadot-cloud/",target:"_blank",children:V.jsx(t.p,{children:V.jsx(t.strong,{children:"Github"})})}),`
 `,V.jsx(t.p,{children:`Polkadot Cloud is a library, hub and an automated platform for developing and publishing
 common-good assets for Polkadot DApps, with the goal to improve & expedite Polkadot
 UX throughout the ecosystem.`}),`
+`,V.jsx(t.h2,{children:V.jsx("a",{href:"http://contractwizard.xyz",target:"_blank",children:"Polkadot Contract Wizard v 2.0"})}),`
+`,V.jsx(t.p,{children:`The Polkadot Contract Wizard is an intuitive web-based platform designed to simplify
+the process of creating, deploying, and managing smart contracts within the Polkadot
+and Kusama ecosystems.`}),`
 `,V.jsx(t.h2,{children:V.jsx("a",{href:"https://staging.polkadot.study/",target:"_blank",children:"Polkadot Study"})}),`
 `,V.jsxs(t.p,{children:[`Open educational platform for developers created by developers was approved and received
 `,V.jsx(t.a,{href:"https://kusama.polkassembly.io/post/2163",children:"bounty funding"}),`. The project is well underway,
