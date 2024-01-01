@@ -1134,8 +1134,6 @@ model.`}),`
 `,V.jsx(t.h2,{children:V.jsx("a",{href:"https://www.sctl.xyz/",target:"_blank",children:"Societal"})}),`
 `,V.jsx(t.p,{children:`Societal aims to empower tokenized communities, NFT projects, DAOs, and protocols
 with seamless governance and community management.`}),`
-`,V.jsx(t.h2,{children:V.jsx("a",{href:"https://github.com/Off-Narrative-Labs/Tuxedo/",target:"_blank",children:"Tuxedo"})}),`
-`,V.jsx(t.p,{children:"Write UTXO-based Substrate Runtimes"}),`
 `,V.jsx(t.h2,{children:V.jsx("a",{href:"https://rtomas.hashnode.dev/embracing-financial-transparency-open-payroll",target:"_blank",children:"Open Roll"})}),`
 `,V.jsx(t.p,{children:`With customizable payroll contracts and multipliers, Open Payroll aims to create
 an inclusive and empowered workforce.`}),`
