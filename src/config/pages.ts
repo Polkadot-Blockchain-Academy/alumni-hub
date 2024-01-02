@@ -13,6 +13,7 @@ import { RiFundsBoxFill } from "react-icons/ri"
 import { HiMiniUserGroup } from "react-icons/hi2"
 import { BiWorld } from "react-icons/bi"
 import { AiFillProject } from "react-icons/ai"
+import { GithubRequests } from "pages/GithubRequests"
 
 const BASE_URL = import.meta.env.BASE_URL
 
@@ -63,5 +64,14 @@ export const PagesConfig: PagesConfigItems = [
     hash: "/projects",
     Entry: Projects,
     icon: AiFillProject,
+  },
+  {
+    category: 1,
+    key: "Submit a request",
+    uri: `${BASE_URL}`,
+    hash: "/github_requests",
+    Entry: GithubRequests,
+    icon: AiFillProject,
+    hidden: true,
   },
 ]

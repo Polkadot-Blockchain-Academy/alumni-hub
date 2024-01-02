@@ -23,6 +23,7 @@ export interface PageItem {
     status: string
     text?: string | undefined
   }
+  hidden?: boolean
 }
 
 export interface PageProps {

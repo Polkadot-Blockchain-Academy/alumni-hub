@@ -1,0 +1,34 @@
+p {
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+
+  .select {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .row {
+    margin: 1rem 0;
+  }
+
+  .md-3 {
+    font-weight: bold;
+  }
+
+  .sm-12 {
+    margin: 1rem 0;
+  }
+}
+
+.form-input{
+    width: 70%;
+    background-color: white;
+    border: 0.1rem solid var(--accent-color-primary);
+}
+
+.form-text{
+  width: 70%;
+  height: 300px;
+}

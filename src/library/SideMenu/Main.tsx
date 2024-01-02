@@ -85,20 +85,21 @@ export const Main = () => {
 
             {/* display category links */}
             {pagesToDisplay.map(
-              ({ category, hash, key, icon, action }: PageItem) => (
-                <React.Fragment key={`sidemenu_page_${categoryId}_${key}`}>
-                  {category === categoryId && (
-                    <Primary
-                      name={t(key)}
-                      to={hash}
-                      active={hash === pathname}
-                      icon={icon}
-                      action={action}
-                      minimised={sideMenuMinimised}
-                    />
-                  )}
-                </React.Fragment>
-              )
+              ({ category, hash, key, icon, action, hidden }: PageItem) =>
+                !hidden && (
+                  <React.Fragment key={`sidemenu_page_${categoryId}_${key}`}>
+                    {category === categoryId && (
+                      <Primary
+                        name={t(key)}
+                        to={hash}
+                        active={hash === pathname}
+                        icon={icon}
+                        action={action}
+                        minimised={sideMenuMinimised}
+                      />
+                    )}
+                  </React.Fragment>
+                )
             )}
           </React.Fragment>
         )
