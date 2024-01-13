@@ -5,11 +5,12 @@ import { Welcome } from "pages/Welcome"
 import { Funding } from "pages/Funding"
 import { Fellowship } from "pages/Fellowship"
 import { Ecosystem } from "pages/Ecosystem"
+import { Guidelines } from "pages/Guidelines"
 import { Projects } from "pages/Projects"
 
 import type { PageCategoryItems, PagesConfigItems } from "types"
 import { PiStudentFill } from "react-icons/pi"
-import { RiFundsBoxFill } from "react-icons/ri"
+import { RiFundsBoxFill, RiGuideFill } from "react-icons/ri"
 import { HiMiniUserGroup } from "react-icons/hi2"
 import { BiWorld } from "react-icons/bi"
 import { AiFillProject } from "react-icons/ai"
@@ -55,6 +56,14 @@ export const PagesConfig: PagesConfigItems = [
     hash: "/ecosystem",
     Entry: Ecosystem,
     icon: BiWorld,
+  },
+  {
+    category: 1,
+    key: "Guidelines",
+    uri: `${BASE_URL}`,
+    hash: "/guidelines",
+    Entry: Guidelines,
+    icon: RiGuideFill,
   },
   {
     category: 1,
