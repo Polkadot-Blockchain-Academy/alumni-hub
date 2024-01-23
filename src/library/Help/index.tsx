@@ -52,9 +52,8 @@ export const Help = () => {
 
   if (definition) {
     // get items for active category
-    meta = Object.values(HelpConfig).find((c) =>
-      c?.definitions?.find((d) => d === definition)
-    )
+    const temp = Object.values(HelpConfig)
+    meta = temp.find((c) => c?.definitions?.find((d) => d === definition))
   } else {
     // get all items
     let definitions: string[] = []
