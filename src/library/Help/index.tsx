@@ -52,9 +52,7 @@ export const Help = () => {
 
   if (definition) {
     // get items for active category
-    // eslint-disable-next-line prettier/prettier
     meta = Object.values(HelpConfig).find(
-      // eslint-disable-next-line prettier/prettier
       (c) => c?.definitions?.find((d) => d === definition)
     )
   } else {
