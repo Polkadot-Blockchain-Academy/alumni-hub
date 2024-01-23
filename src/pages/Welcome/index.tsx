@@ -3,13 +3,14 @@
 
 import { PageRow, PageTitle } from "@polkadot-cloud/react"
 import MdxCode from "./index.mdx"
+import { YouTube } from "library/YouTube"
 
 export const Welcome = () => {
   return (
     <>
       <PageTitle title="Welcome" />
       <PageRow style={{ paddingTop: "1rem" }}>
-        <MdxCode />
+        <MdxCode components={{ YouTube }} />
       </PageRow>
     </>
   )

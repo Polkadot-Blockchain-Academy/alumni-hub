@@ -16,7 +16,7 @@ import { Heading } from "./Heading/Heading"
 import { Main } from "./Main"
 import { Secondary } from "./Secondary"
 import { Separator, Wrapper } from "./Wrapper"
-import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6"
+import { FaSquareXTwitter, FaLinkedin, FaSquareYoutube } from "react-icons/fa6"
 import { IoSunnyOutline, IoMoon, IoLogoGithub } from "react-icons/io5"
 
 // import { useModal } from 'contexts/Modal';
@@ -91,7 +91,7 @@ export const SideMenu = () => {
         <Separator />
       </section>
 
-      <section>
+      <section className="buttons">
         <button
           type="button"
           onClick={() => setUserSideMenuMinimised(!userSideMenuMinimised)}
@@ -109,6 +109,19 @@ export const SideMenu = () => {
             <IoMoon size={iconSize} />
           </button>
         )}
+        <button
+          type="button"
+          onClick={() =>
+            window.open(
+              "https://github.com/polkadot-blockchain-academy/alumni-hub",
+              "_blank"
+            )
+          }
+        >
+          <IoLogoGithub size={iconSize} />
+        </button>
+      </section>
+      <section className="buttons">
         <button
           onClick={() =>
             window.open("https://twitter.com/AcademyPolkadot", "_blank")
@@ -130,12 +143,12 @@ export const SideMenu = () => {
           type="button"
           onClick={() =>
             window.open(
-              "https://github.com/polkadot-blockchain-academy/alumni-hub",
+              "https://www.youtube.com/@polkadotblockchainacademy",
               "_blank"
             )
           }
         >
-          <IoLogoGithub size={iconSize} />
+          <FaSquareYoutube size={iconSize} />
         </button>
       </section>
     </Wrapper>

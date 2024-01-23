@@ -41,7 +41,7 @@ export const Wrapper = styled.div<MinimisedProps>`
       flex-grow: 1;
     }
     /* Footer */
-    &:last-child {
+    &.buttons {
       display: flex;
       flex-flow: ${(props) => (props.$minimised ? "column wrap" : "row wrap")};
       align-items: center;
