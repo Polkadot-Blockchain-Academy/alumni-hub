@@ -758,10 +758,10 @@
     "@polkadot/util-crypto" "^12.5.1"
     framer-motion "^10.16.16"
 
-"@polkadot-cloud/react@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@polkadot-cloud/react/-/react-0.3.6.tgz#bec4907ead98e117d335b312195dea00a7757deb"
-  integrity sha512-8ZLRpnmY+cONe6cFjGzVjdmK9YjX6TzCLAA/ALywyhrsWBC+sNhL609PUOMcDsu2LNaz0dK5mIOt8ao5fV7M1Q==
+"@polkadot-cloud/react@^0.3.8":
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/@polkadot-cloud/react/-/react-0.3.8.tgz#5c6739548feab56a63ba8c96ffa478f355a90852"
+  integrity sha512-Bf2tLt6z5EMa69Xj058n3aI1AU1j8RfEw5fG+kKicVI1/h1tiM015dlae5uIsBoWOwWGd6kbOSZnZIW2qTSE7w==
   dependencies:
     "@chainsafe/metamask-polkadot-adapter" "^0.6.0"
     "@chainsafe/metamask-polkadot-types" "^0.6.0"
