@@ -3,10 +3,8 @@
 
 import { faCompressAlt, faExpandAlt } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import throttle from "lodash.throttle"
-import { useEffect, useRef } from "react"
+import { useRef } from "react"
 import { useTranslation } from "react-i18next"
-import { SideMenuStickyThreshold } from "consts"
 import { useHelp } from "contexts/Help"
 import { useTheme } from "contexts/Themes"
 import { useUi } from "contexts/UI"
@@ -34,24 +32,6 @@ export const SideMenu = () => {
     setUserSideMenuMinimised,
   }: UIContextInterface = useUi()
   const { openHelp } = useHelp()
-
-  // listen to window resize to hide SideMenu
-  useEffect(() => {
-    window.addEventListener("resize", windowThrottle)
-    return () => {
-      window.removeEventListener("resize", windowThrottle)
-    }
-  }, [])
-
-  const throttleCallback = () => {
-    if (window.innerWidth >= SideMenuStickyThreshold) {
-      setSideMenu(false)
-    }
-  }
-  const windowThrottle = throttle(throttleCallback, 200, {
-    trailing: true,
-    leading: false,
-  })
 
   const ref = useRef(null)
   useOutsideAlerter(ref, () => {
