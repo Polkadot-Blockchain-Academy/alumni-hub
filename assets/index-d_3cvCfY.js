@@ -1080,7 +1080,7 @@ This bounty aims to reward and fund events hosted by community members in the Po
 `,T.jsxs(t.li,{children:[T.jsx(t.a,{href:"https://github.com/polkadot-fellows/manifesto/blob/main/manifesto.pdf",children:"Fellowship Manifesto"}),";"]}),`
 `,T.jsxs(t.li,{children:[T.jsx(t.a,{href:"https://polkadot-fellows.github.io/dashboard/#/members",children:"Members"})," of the Fellowship;"]}),`
 `,T.jsxs(t.li,{children:[T.jsx(t.a,{href:"https://github.com/polkadot-fellows/RFCs/blob/main/text/0050-fellowship-salaries.md#salary-asset",children:"Fellowship Salaries"}),";"]}),`
-`,T.jsxs(t.li,{children:["How to ",T.jsx(t.a,{href:"https://wiki.polkadot.network/docs/learn-polkadot-opengov#becoming-a-polkadot-technical-fellowship-member",children:"join the Fellowship"}),";"]}),`
+`,T.jsxs(t.li,{children:["How to ",T.jsx(t.a,{href:"https://wiki.polkadot.network/docs/learn-polkadot-technical-fellowship#becoming-a-member",children:"join the Fellowship"}),";"]}),`
 `]}),`
 `,T.jsx("img",{className:"adj-img",src:T$,alt:"ranking"})]})}function _$(e={}){const{wrapper:t}=e.components||{};return t?T.jsx(t,{...e,children:T.jsx(Z4,{...e})}):Z4(e)}const M$=()=>T.jsxs(T.Fragment,{children:[T.jsx(Oo,{title:"Polkadot Fellowship"}),T.jsx(sl,{style:{paddingTop:"1rem"},children:T.jsx(_$,{})})]});function K4(e){const t={a:"a",h1:"h1",p:"p",...e.components};return T.jsxs(T.Fragment,{children:[T.jsx(t.h1,{children:"Employment in the ecosystem"}),`
 `,T.jsxs(t.p,{children:["The most comprehensive site for finding a job in the Polkadot ecosystem is here: ",T.jsx("a",{href:"https://polkadot.getro.com/jobs",target:"_parent",children:"https://polkadot.getro.com/jobs"}),"."]}),`
