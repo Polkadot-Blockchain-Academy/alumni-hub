@@ -1,7 +1,7 @@
 // Copyright 2024 @polkadot-blockchain-academy/alumni-hub authors & contributors
 // SPDX-License-Identifier: GPL-3.0-only
 
-import { localStorageOrDefault, setStateWithRef } from "@polkadot-cloud/utils"
+import { localStorageOrDefault, setStateWithRef } from "@polkadot-ui/utils"
 import React, { useEffect, useRef, useState } from "react"
 import { SideMenuStickyThreshold } from "consts"
 import { useEffectIgnoreInitial } from "library/Hooks/useEffectIgnoreInitial"
