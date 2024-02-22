@@ -1,7 +1,7 @@
 // Copyright 2024 @polkadot-blockchain-academy/alumni-hub authors & contributors
 // SPDX-License-Identifier: GPL-3.0-only
 
-import type { AnyJson } from "@polkadot-cloud/react/types"
+import type { AnyJson } from "@polkadot-ui/react/types"
 import type { ApiPromise } from "@polkadot/api"
 import type { ReactNode } from "react"
 
