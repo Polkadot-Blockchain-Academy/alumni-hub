@@ -10,8 +10,8 @@ export const HelpConfig: HelpItems = [
     external: [
       [
         "github",
-        "https://github.com/polkadot-blockcain-academy/alumni-hub/",
-        "github.com/polkadot-blockcain-academy/alumni-hub/",
+        "https://github.com/polkadot-blockhcain-academy/alumni-hub/",
+        "github.com/polkadot-blockchain-academy/alumni-hub/",
       ],
       [
         "polkadotAmbassadorProgram",
