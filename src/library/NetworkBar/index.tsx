@@ -3,6 +3,7 @@
 
 import { useTranslation } from "react-i18next"
 import { Summary, Wrapper } from "./Wrappers"
+import pkg from "../../../package.json"
 
 export const NetworkBar = () => {
   const { t } = useTranslation("library")
@@ -51,6 +52,8 @@ export const NetworkBar = () => {
           <div className="hide-small">
             <p>
               {ORGANISATION === undefined ? "PBA Alumni Hub" : ORGANISATION}
+              {" - "}
+              {"Version " + pkg?.version || null}
               {" - "}
               {new Date().getFullYear()}
             </p>
