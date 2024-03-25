@@ -559,6 +559,11 @@
   resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.3.3.tgz#39908da56a4adc270147bb07968bf3b16cfe1699"
   integrity sha512-V7/fPHgl+jsVPXqqeOzT8egNj2iBIVt+ECeMMG8TdcnTikP3oaBtUVqpT/gYCR68aEBJSF+XbYUxStjbFMqIIA==
 
+"@noble/hashes@^1.3.1":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.4.0.tgz#45814aa329f30e4fe0ba49426f49dfccdd066426"
+  integrity sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -631,20 +636,35 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
-"@polkadot-ui/assets@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@polkadot-ui/assets/-/assets-0.5.2.tgz#a72a3258b0be98d32e19bf23f341481f16d8802d"
-  integrity sha512-2oXG8Nx0gdCJm7TwkGUM3icJBxNfVPN+DAvb6mE/45JMCHFupFGO+jjk3pdCKMF1DT5WxTJMrjRqstwMQVRnJg==
+"@polkadot-api/substrate-bindings@0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0":
+  version "0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0"
+  resolved "https://registry.yarnpkg.com/@polkadot-api/substrate-bindings/-/substrate-bindings-0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0.tgz#56c157d5b303591de0670fb4a3893583c17016d7"
+  integrity sha512-orAAKbodBkSJ3s6yigu2lLPnCKeF+XjqeaaaypYcw1L3505eZAGITpW5KvvkRlr/tq5UIbv13RSI82IpikEq8A==
+  dependencies:
+    "@noble/hashes" "^1.3.1"
+    "@polkadot-api/utils" "0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0"
+    "@scure/base" "^1.1.1"
+    scale-ts "^1.6.0"
+
+"@polkadot-api/utils@0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0":
+  version "0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0"
+  resolved "https://registry.yarnpkg.com/@polkadot-api/utils/-/utils-0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0.tgz#d1defd728d583ee728b4611a3d1a13e9fea9cb28"
+  integrity sha512-APi2JC/opY7eHlF7lPpPB7aY2dYbFIDjbpGR5D+sBkGyzmKWOTdecK3XdObAhgQv4SYrOYBrRTpSNr4+QgfAsg==
+
+"@polkadot-ui/assets@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@polkadot-ui/assets/-/assets-0.5.3.tgz#cfc7bd4aa3413bcab9748397cffb78652171a8e6"
+  integrity sha512-jlDphpSH2USxVjFBbN49yZcT9KVi9Lunob+l5K2qSb+Myx4LSO/XZrB3EGKe2KYdYgleqqfS0abH0ZB70LhHaQ==
 
 "@polkadot-ui/core@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@polkadot-ui/core/-/core-2.0.2.tgz#b631520533c1633d7bab50852009f16ec86b8d65"
   integrity sha512-RDymyKjY/pDIp46yNbKWoynl4HKvXG6mi2KO9eR2w0w96isj4DpnjhEMrBvUB7D3YP5XnF4QRu65HNRwh3WIlQ==
 
-"@polkadot-ui/react@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@polkadot-ui/react/-/react-0.5.3.tgz#f748ce2300c53d555d3a45922eae312978370d1b"
-  integrity sha512-NjCkOJWCfU+eEYGE+I2R78P5MrtqigxHKQnXLxSuWtWXoIlq+RgZgRx8wwki38ynEbG8f9QGatQGWDQZshjbBA==
+"@polkadot-ui/react@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@polkadot-ui/react/-/react-0.5.5.tgz#00aeae769f79d66b525a45aa532cb7a1b22c9d7e"
+  integrity sha512-b0C1UyK+rCRz+v0B+kGz3aW0JK1IEVJb6aHM85CFZFCi4H/TIURwOeoFlExVFysq2ArQ7y2ZllVoUL8Ag5jIRg==
   dependencies:
     "@chainsafe/metamask-polkadot-adapter" "^0.6.0"
     "@chainsafe/metamask-polkadot-types" "^0.6.0"
@@ -653,14 +673,14 @@
     "@fortawesome/free-regular-svg-icons" "^6.5.1"
     "@fortawesome/free-solid-svg-icons" "^6.5.1"
     "@fortawesome/react-fontawesome" "^0.2.0"
-    "@polkadot-ui/assets" "^0.5.2"
+    "@polkadot-api/substrate-bindings" "0.0.1-87b10c43c1862eec15d3a29e752a1b05b4cc16b1.1.0"
+    "@polkadot-ui/assets" "^0.5.3"
     "@polkadot-ui/core" "^2.0.2"
     "@polkadot-ui/utils" "^0.4.0"
     "@polkadot/keyring" "^12.6.2"
     "@polkadot/util" "^12.6.2"
-    "@polkadot/util-crypto" "^12.6.2"
-    framer-motion "^11.0.5"
-    react-error-boundary "^4.0.12"
+    framer-motion "^11.0.20"
+    react-error-boundary "^4.0.13"
 
 "@polkadot-ui/utils@^0.4.0":
   version "0.4.0"
@@ -886,7 +906,7 @@
     rxjs "^7.8.1"
     tslib "^2.6.2"
 
-"@polkadot/util-crypto@12.6.2", "@polkadot/util-crypto@^12.6.1", "@polkadot/util-crypto@^12.6.2":
+"@polkadot/util-crypto@12.6.2", "@polkadot/util-crypto@^12.6.1":
   version "12.6.2"
   resolved "https://registry.yarnpkg.com/@polkadot/util-crypto/-/util-crypto-12.6.2.tgz#d2d51010e8e8ca88951b7d864add797dad18bbfc"
   integrity sha512-FEWI/dJ7wDMNN1WOzZAjQoIcCP/3vz3wvAp5QQm+lOrzOLj0iDmaIGIcBkz8HVm3ErfSe/uKP0KS4jgV/ib+Mg==
@@ -1155,6 +1175,11 @@
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.13.0.tgz#6abd79db7ff8d01a58865ba20a63cfd23d9e2a10"
   integrity sha512-UKXUQNbO3DOhzLRwHSpa0HnhhCgNODvfoPWv2FCXme8N/ANFfhIPMGuOT+QuKd16+B5yxZ0HdpNlqPvTMS1qfw==
+
+"@scure/base@^1.1.1":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@scure/base/-/base-1.1.6.tgz#8ce5d304b436e4c84f896e0550c83e4d88cb917d"
+  integrity sha512-ok9AWwhcgYuGG3Zfhyqg+zwl+Wn5uE+dwC0NV/2qQkx4dABbb/bx96vWu8NSj+BNjjSjno+JRYRjle1jV08k3g==
 
 "@scure/base@^1.1.5":
   version "1.1.5"
@@ -3361,7 +3386,7 @@ formdata-polyfill@^4.0.10:
   dependencies:
     fetch-blob "^3.1.2"
 
-framer-motion@^11.0.20, framer-motion@^11.0.5:
+framer-motion@^11.0.20:
   version "11.0.20"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.0.20.tgz#6bb72bd0b8020fc417a40453b9247d596acbea78"
   integrity sha512-YSDmWznt3hpdERosbE0UAPYWoYhTnmQ0J1qWPsgpCia9NgY8Xsz5IpOiUEGGj/nzCAW29fSrWugeLRkdp5de7g==
@@ -5477,7 +5502,7 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-error-boundary@^4.0.12, react-error-boundary@^4.0.13:
+react-error-boundary@^4.0.13:
   version "4.0.13"
   resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-4.0.13.tgz#80386b7b27b1131c5fbb7368b8c0d983354c7947"
   integrity sha512-b6PwbdSv8XeOSYvjt8LpgpKrZ0yGdtZokYwkwV2wlcZbxgopHX/hgPl5VgpnoVOWd868n1hktM8Qm4b+02MiLQ==
@@ -5845,6 +5870,11 @@ sass@^1.72.0:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
+
+scale-ts@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/scale-ts/-/scale-ts-1.6.0.tgz#e9641093c5a9e50f964ddb1607139034e3e932e9"
+  integrity sha512-Ja5VCjNZR8TGKhUumy9clVVxcDpM+YFjAnkMuwQy68Hixio3VRRvWdE3g8T/yC+HXA0ZDQl2TGyUmtmbcVl40Q==
 
 scheduler@^0.23.0:
   version "0.23.0"
