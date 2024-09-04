@@ -39,7 +39,7 @@
     "bignumber.js": "^9.1.2",
     "buffer": "^6.0.3",
     "date-fns": "^3.6.0",
-    "framer-motion": "^11.4.0",
+    "framer-motion": "^11.5.2",
     "i18next": "^23.14.0",
     "i18next-browser-languagedetector": "^7.2.1",
     "react": "^18.3.0",
