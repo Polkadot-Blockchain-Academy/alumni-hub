@@ -30,7 +30,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mdx-js/react": "^3.1.0",
-    "@mdx-js/rollup": "^3.0.1",
+    "@mdx-js/rollup": "^3.1.0",
     "@polkadot-ui/core": "^2.0.2",
     "@polkadot-ui/react": "^0.5.5",
     "@polkadot/keyring": "^12.6.2",
